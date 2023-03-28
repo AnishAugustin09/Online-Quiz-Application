@@ -1,2 +1,4 @@
 # Online-Quiz-Application
-Quiz application using Angular
+Test application using Angular
+
+This application enables users to provide Online test, Review them and Display the Results.
