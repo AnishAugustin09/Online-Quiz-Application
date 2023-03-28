@@ -1,0 +1,274 @@
+
+{
+    "questions": [{
+            "questionText": "Which of the following is not a keyword in java?",
+            "options": [{
+                    "text": "Boolean",
+                    "correct": true
+                },
+                {
+                    "text": "static"
+                },
+                {
+                    "text": " void"
+                },
+                {
+                    "text": "private"
+                }
+            ],
+            "explanation": "Boolean is a class and is not a keyword."
+        },
+        {
+            "questionText": "Which of the following is correct about features of JavaScript?",
+            "options": [{
+                    "text": "JavaScript is is complementary to and integrated with HTML."
+                },
+                {
+                    "text": "JavaScript is open and cross-platform"
+                },
+                {
+                    "text": "All of the above"
+                },
+                {
+                    "text": "Both of the above.",
+                    "correct": true
+                }
+            ],
+            "explanation": "enum is not used as a type in TypeScript"
+        },
+        {
+            "questionText": "If a bean is scoped to HTTP request, scope is?",
+            "options": [{
+                    "text": "prototype"
+                },
+                {
+                    "text": "request",
+                    "correct": true
+                },
+                {
+                    "text": "global-session"
+                },
+                {
+                    "text": "session"
+                }
+            ],
+            "explanation": "If a bean is scoped to HTTP request, scope is request."
+        },
+        {
+            "questionText": "Which method is used to save or update the state of the given instance from the underlying database?",
+            "options": [{
+                    "text": "Session.keep()"
+                },
+                {
+                    "text": "Session.saveOrUpdate()",
+                    "correct": true
+                },
+                {
+                    "text": "Session.update()"
+                },
+                {
+                    "text": "Session.load()"
+                }
+            ],
+            "explanation": "Session.saveOrUpdate either saves(Object) or updates(Object) the given instance."
+        },
+        {
+            "questionText": "Which of the following is the correct way to apply a filter?",
+            "options": [{
+                    "text": "Property-value | filter",
+                    "correct": true
+                },
+                {
+                    "text": " Property-value || filter"
+                },
+                {
+                    "text": "Property-value && filter"
+                },
+                {
+                    "text": "None of the above"
+                }
+            ],
+            "explanation": "filter are applied using pipe character."
+        },
+        {
+            "questionText": "What is an immutable object?",
+            "options": [{
+                    "text": "An immutable object is an instance of an abstract class"
+                },
+                {
+                    "text": "None of the above"
+                },
+                {
+                    "text": "An immutable object can be changed once it is created."
+                },
+                {
+                    "text": "An immutable object can't be changed once it is created",
+                    "correct": true
+                }
+            ],
+            "explanation": "An immutable object can't be changed once it is created. String objects are immutable"
+        },
+        {
+            "questionText": "Which built-in method removes the last element from an array and returns that element?",
+            "options": [{
+                    "text": "last()"
+                },
+                {
+                    "text": "pop()",
+                    "correct": true
+                },
+                {
+                    "text": "get()"
+                },
+                {
+                    "text": "None of the above."
+                }
+            ],
+            "explanation": "pop() method removes the last element from an array and returns that element."
+        },
+        {
+            "questionText": " Which of the following filter is used to slice a piece of data from the input string.?",
+            "options": [{
+                    "text": "slice",
+                    "correct": true
+                },
+                {
+                    "text": "substring"
+                },
+                {
+                    "text": "Both of the above."
+                },
+                {
+                    "text": "None of the above"
+                }
+            ],
+            "explanation": "slice filter is used to slice a piece of data from the input string."
+        },
+        {
+            "questionText": "What is the default value of byte variable?",
+            "options": [{
+                    "text": "0",
+                    "correct": true
+                },
+                {
+                    "text": "0.0"
+                },
+                {
+                    "text": "null"
+                },
+                {
+                    "text": "not defined"
+                }
+            ],
+            "explanation": "Byte variable has default value of 0 if defined as an instance/static variable."
+        },
+        {
+            "questionText": "Which are the modules of Data Access/ integration layer?",
+            "options": [{
+                    "text": "JDBC, ORM, OXM, JMS, Transactions",
+                    "correct": true
+                },
+                {
+                    "text": "JDBC, ORM, OXM, JMS"
+                },
+                {
+                    "text": "JDBC, ORM, Web, Beans"
+                },
+                {
+                    "text": "JDBC, ORM, OXM, JMS"
+                }
+            ],
+            "explanation": "jDBC, ORM, OXM, JMS, Transactions are the modules of Data Access/ Integration layer."
+        },
+{
+            "questionText": "Which of the following function of Number object forces a number to display in exponential notation?",
+            "options": [{
+                    "text": "toExponential()",
+                    "correct": true
+                },
+                {
+                    "text": "toFixed()"
+                },
+                {
+                    "text": "toPrecision()"
+                },
+                {
+                    "text": "toLocaleString()"
+                }
+            ],
+            "explanation": "toExponential(): Forces a number to display in exponential notation, even if the number is in the range in which JavaScript normally uses standard notation."
+        },
+{
+            "questionText": "Which of the following function of String object returns the calling string value converted to lower case?",
+            "options": [{
+                    "text": "toLowerCase()",
+                    "correct": true
+                },
+                {
+                    "text": " toLocaleLowerCase()"
+                },
+                {
+                    "text": "toString()"
+                },
+                {
+                    "text": "substring()"
+                }
+            ],
+            "explanation": "toLowerCase() − Returns the calling string value converted to lower case.."
+        },
+{
+            "questionText": "Which of the following configuration element is present in POM.xml?",
+            "options": [{
+                    "text": "developers"
+                },
+                {
+                    "text": "mailing list"
+                },
+                {
+                    "text": "Both of the above",
+                    "correct": true
+                },
+                {
+                    "text": "None of the above"
+                }
+            ],
+            "explanation": "Both of the above configuration elements are present in POM.xml."
+        },
+{
+            "questionText": "Which of the following is the default value of packaging?",
+            "options": [{
+                    "text": "ear"
+                },
+                {
+                    "text": "war"
+                },
+                {
+                    "text": "jar",
+                    "correct": true
+                },
+                {
+                    "text": "pom"
+                }
+            ],
+            "explanation": "If no packaging value has been specified, it will default to jar."
+        },
+{
+            "questionText": "Maven Plugins are generally used to:",
+            "options": [{
+                    "text": "compile code files"
+                },
+                {
+                    "text": "unit testing of code"
+                },
+                {
+                    "text": "Both of the above",
+                    "correct": true
+                },
+                {
+                    "text": "None of the above"
+                }
+            ],
+            "explanation": "Maven plugins are used to do both of the above mentioned tasks."
+        }
+    ]
+}

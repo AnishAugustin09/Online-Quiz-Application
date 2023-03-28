@@ -1,0 +1,64 @@
+<div class="container mt-3">
+    <div class="card">
+        <div class="d-flex justify-content-between p-3">
+              
+             <div class="quiz-header">
+                <h4 >Full Stack Java Developer Quiz!</h4>
+                <span >Welcome <strong>{{name}}</strong></span>
+            </div>
+            <div class="timer">
+                <h5>00:{{counter}} sec</h5><hr>
+            </div>
+        </div>
+
+        <ng-container *ngIf="!quizCompleted">
+            
+    
+            <div class="question">
+                <div class="card">
+                    <h3>{{questionList[currentQuestion]?.questionText}}</h3>
+                </div>
+            </div>
+            <div class="options">
+                <ol *ngFor="let option of questionList[currentQuestion]?.options">
+                    <li (click)="checkAnswer(currentQuestion+1,option)">
+                        
+                        <div class="card " >
+                            {{option.text}}
+                        
+                    </div>
+                    </li>
+                </ol>
+            </div>
+            <div class="d-flex justify-content-between">
+                <button [disabled]="currentQuestion===0" class="btn btn-primary"  (click)="previousQuestion()">Previous</button>
+                <div class="question-remain">
+                    <span >Question {{currentQuestion+1}} of {{questionList.length}}</span>
+                </div>
+                <button class="btn btn-success" (click)="nextQuestion()">Next</button>
+            </div>
+        </ng-container>
+
+        <ng-container *ngIf="quizCompleted">
+            <div class="row d-flex justify-content-center">
+                <div class="result text-center col-md-6 col-sm-12">
+                    <h3>Congratulations!! <br>You have completed the quiz</h3>
+                    <p>Total Question Attempted :<strong> {{questionList.length}}</strong> </p><hr>
+                    <p>Total Correct Answered :<strong> {{correctAnswer}}</strong> </p><hr>
+                    <p>Total Wrong Answered :<strong>{{incorrectAns}}</strong>  </p><hr>
+                    <p>Your Score : <strong>{{points}}</strong> Points </p><hr>
+                    <p>Status :<strong>{{status}}</strong> </p>
+
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a routerLink="/Welcome">
+                        <button class="btn btn-primary">Retake the Quiz</button>
+                    </a>
+                </div>
+            </div>
+        </ng-container>
+       
+        
+        
+    </div>
+</div>

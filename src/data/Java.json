@@ -1,0 +1,15 @@
+[    {  "question": "Which data type is used to create a variable that should store text?",      
+        "options": ["Txt", "myString", "String", "string"],
+        "answer": "String"
+    },
+    {
+        "question": "Which of the following is not a Java features?",
+        "options": ["Dynamic", "Architecture Neutral", "Use of pointers", "Object-oriented"],
+        "answer": "Use of pointers"
+    },
+    {
+        "question": " What is the return type of the hashCode() method in the Object class?",
+        "options": ["Object", "int", "long", "void"],
+        "answer": "int"
+    }
+]

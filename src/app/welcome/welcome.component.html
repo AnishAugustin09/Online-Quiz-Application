@@ -1,0 +1,21 @@
+<div class="container bg-light py-5">
+    
+    <h1 class="display-5 fw-bold">Welcome to Full Stack Java Developer Quiz app</h1>
+    <p class="col-md-8 fs-4" >This quiz conatins 15 questions </p>
+    <h4>Rules:</h4>
+    <ol>
+        <li>Total Points <strong>150</strong>, out of this you've to secure <strong>70</strong> points to get <strong>PASS</strong> </li>
+        <li>You will have 60 sec to answer each question</li>
+        <li>Refereshing the page will reset the Quiz</li>
+    </ol>
+   <hr>
+    <div class="name col-md-4 my-3">
+        <label for="">Enter your name:</label>
+        <input #name type="text" class="form-control" placeholder=""><br>
+        <button class="btn btn-primary btn-lg" routerLink="/question" (click)="startQuiz()">Start the Quiz!!</button>
+    </div>
+
+    
+    
+
+</div>
